@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public record CreateBreakfastRequest(
 
     string Name,
-    string description,
+    string Description,
     DateTime StartDateTime,
     DateTime EndDateTime,
     List<string> Savory,
